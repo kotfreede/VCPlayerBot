@@ -109,8 +109,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-                InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/VCPlayerBot'),
+                InlineKeyboardButton('Streaming Channel', url='https://t.me/Dhm_MoviesStream'),
+                InlineKeyboardButton('Source', url='https://github.com/Thor-Ragnarokk/VCPlayerBot'),
             ]
         ]
         reply_markup = InlineKeyboardMarkup(buttons)

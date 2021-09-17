@@ -77,7 +77,3 @@ Fork the repo and edit as per your needs.
 
 ## CREDITS
 
-- [py-tgcalls](https://github.com/pytgcalls/pytgcalls)
-- [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)
-
-

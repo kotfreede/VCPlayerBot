@@ -28,8 +28,8 @@ admin_filter=filters.create(is_admin)
 async def start(client, message):
     buttons = [
         [
-            InlineKeyboardButton('Streaming Channel', url='https://t.me/Dhm_Moviesstream'),
-            InlineKeyboardButton('Source', url='https://github.com/Thor-Ragnarokk/VCPlayerBot')
+            InlineKeyboardButton('BOTS Channel', url='https://t.me/KOT_BOTS'),
+            InlineKeyboardButton('Source', url='https://github.com/kotfreede/VCPlayerBot')
         ],
         [
             InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help'),
@@ -44,8 +44,8 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton('Streaming Channel', url='https://t.me/DHM_MoviesStream'),
-            InlineKeyboardButton('Source', url='https://github.com/Thor-Ragnarokk/VCPlayerBot'),
+            InlineKeyboardButton('BOTS Channel', url='https://t.me/KOT_BOTS'),
+            InlineKeyboardButton('Sourcec'', url='https://github.com/kotfreede/VCPlayerBot'),
         ]
         ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -59,8 +59,8 @@ async def show_help(client, message):
 async def repo_(client, message):
     buttons = [
         [
-            InlineKeyboardButton('🧩 Repository', url='https://github.com/Thor-Ragnarokk/VCPlayerBot'),
-            InlineKeyboardButton('Streaming Channel', url='https://t.me/DHM_MoviesStream'),
+            InlineKeyboardButton('☸Repository☸', url='https://github.com/kotfreede/VCPlayerBot'),
+            InlineKeyboardButton('🔱BOTS Channel🔱', url='https://t.me/KOT_BOTS'),
             
         ],
     ]
